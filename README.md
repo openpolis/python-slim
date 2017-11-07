@@ -19,6 +19,6 @@ An /app directory is created and made the working directory.
 
 # Supported tags and respective `Dockerfile` links
 
--	[`3.6`( *3.6/Dockerfile*)](https://github.com/openpolis/python-slim/blob/master/Dockerfile)
--	[`gdal-3.6` (*gdal-3.6/Dockerfile*)](https://github.com/openpolis/python-slim/blob/master/Dockerfile)
+-	[`3.6`( *3.6/Dockerfile*)](https://github.com/openpolis/python-slim/blob/master/versions/3.6/Dockerfile)
+-	[`gdal-3.6` (*gdal-3.6/Dockerfile*)](https://github.com/openpolis/python-slim/blob/master/versions/gdal-3.6/Dockerfile)
 
