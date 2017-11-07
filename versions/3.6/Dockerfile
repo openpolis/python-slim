@@ -5,7 +5,7 @@ COPY locales.txt /etc/locale.gen
 # provisioning, without gdal
 RUN apt-get -qq update \
     && apt-get install -y --no-install-recommends \
-        git-core tmux vim locales less \
+        wget git-core tmux vim locales less \
         binutils \
     && rm -rf /var/lib/apt/lists/* \
     && echo 'alias ll="ls -l"' >> ~/.bashrc \

@@ -5,6 +5,7 @@ These images are based on the official python, slim-tagged images.
 Some useful packages are installed along the minimal release offered by slim,
 that makes working within this image more confortable:
 
+ - wget
  - git-core 
  - tmux 
  - vim 
