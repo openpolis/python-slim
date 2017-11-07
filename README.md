@@ -1,6 +1,9 @@
 These images are based on the official python, slim-tagged images.
 
-Some useful packages are installed:
+## Introduction
+
+Some useful packages are installed along the minimal release offered by slim,
+that makes working within this image more confortable:
 
  - git-core 
  - tmux 
@@ -10,7 +13,12 @@ Some useful packages are installed:
 
 Locales specified in locales.txt are generated.
 
-# Supported taag
+pip is upgraded to its latest version.
 
+An /app directory is created and made the working directory.
 
+# Supported tags and respective `Dockerfile` links
+
+-	[`3.6`( *3.6/Dockerfile*)](https://github.com/openpolis/python-slim/blob/master/Dockerfile)
+-	[`gdal-3.6` (*gdal-3.6/Dockerfile*)](https://github.com/openpolis/python-slim/blob/master/Dockerfile)
 
