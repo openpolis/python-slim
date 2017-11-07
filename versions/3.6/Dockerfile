@@ -2,7 +2,7 @@ FROM python:3.6-slim
 
 COPY locales.txt /etc/locale.gen
 
-# provisioning, with gdal
+# provisioning, without gdal
 RUN apt-get -qq update \
     && apt-get install -y --no-install-recommends \
         git-core tmux vim locales less \
